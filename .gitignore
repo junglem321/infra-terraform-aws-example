@@ -1,0 +1,18 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# .Ds_Store mac files
+.Ds_Store
+
+# plan files
+plan
+
+# ignore generated keys
+*/mykey*
