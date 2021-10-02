@@ -1,4 +1,3 @@
-<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
@@ -25,6 +24,7 @@
 
 | Name | Type |
 |------|------|
+| [aws_key_pair.mykeypair](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/key_pair) | resource |
 | [aws_security_group.alb_sg_be](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group) | resource |
 | [aws_security_group.alb_sg_fe](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group) | resource |
 | [aws_security_group.instance_be](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group) | resource |
@@ -55,5 +55,9 @@
 
 ## Outputs
 
-No outputs.
-<!-- END_TF_DOCS -->
+| Name | Description |
+|------|-------------|
+| <a name="output_backend-alb-dns"></a> [backend-alb-dns](#output\_backend-alb-dns) | dns of the load balancing for the backend |
+| <a name="output_frontend-alb-dns"></a> [frontend-alb-dns](#output\_frontend-alb-dns) | dns of the load balancing for the frontend |
+| <a name="output_mysql-endpoint"></a> [mysql-endpoint](#output\_mysql-endpoint) | rds mysql endpoint |
+| <a name="output_mysql-port"></a> [mysql-port](#output\_mysql-port) | rds mysql port to use |
